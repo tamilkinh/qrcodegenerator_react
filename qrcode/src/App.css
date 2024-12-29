@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#root{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 70px auto;
+  
+}
+
+img{
+  padding: 10px;
+  box-shadow: 0px 0px 10px 0px rgb(63, 62, 62);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.container h2{
+  padding-bottom: 20px;
+}
+
+p{
+  font-size: 16px;
+  font-weight: 500;
+}
+label{
+  display: inline-block;
+  width: 80%;
+  align-items: flex-start;
+  margin-top: 20px;
+  color: #3498db;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input{
+  padding: 15px 30px;
+  width: 80%;
+  margin-top: 10px;
+  outline: 2px solid #3498db;
+  border-radius: 5px;
+  font-size: 17px;
+  border: 0;
+}
+
+.buttons{
+  margin-top: 20px;
+  width: 85%;
+  
+}
+
+.Generate-btn{
+  background-color: #3498db;
+  padding: 15px 30px ;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 20px;
+  
+}
+
+
+.Download-btn{
+
+  background-color: #3498db;
+  padding: 15px 30px ;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  
+}
